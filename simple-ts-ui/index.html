@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submit Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Submit Your Name</h1>
+    <form id="nameForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="responseMessage" class="response-message"></div>
+    <div id="errorMessage" class="error-message"></div>
+  </div>
+
+  <script src="dist/app.js"></script>
+</body>
+</html>
+
