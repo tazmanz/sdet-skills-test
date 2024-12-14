@@ -27,6 +27,7 @@ Tasks:
     - These are simple components, but documentation is sparse and we've introduced a couple minor bugs in each
     - Update the Setup instructions below with steps to run frontend and backend
 - Utilizing Playwright (and optionally any additional unit-level or other tests you'd  like to add), set up initial testing in this repository to validate behavior of the frontend and backend (please spend no more than 1 hour on this step)
+- If you have time, build (or draft) a github action which would run your tests on any merge
 - Update the Testing section of this README to describe
     - Your approach and instructions for testing this app
     - Next steps you would take to bake tests into CI/CD
