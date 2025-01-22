@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 // Select DOM elements
 const nameForm = document.getElementById("nameForm");
-const nameInput = document.getElementById("name");
+const nameInput = document.getElementById("nameInput");
 const responseMessage = document.getElementById("responseMessage");
 const errorMessage = document.getElementById("errorMessage");
 // Function to handle form submission
@@ -32,7 +32,7 @@ nameForm === null || nameForm === void 0 ? void 0 : nameForm.addEventListener("s
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ name }),
+            body: JSON.stringify({ "input_name":name }),
         });
         // Handle successful response
         if (response.ok) {

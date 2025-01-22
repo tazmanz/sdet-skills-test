@@ -11,10 +11,10 @@ def submit_name():
     data = request.get_json()
     
     # Check if 'name' is provided in the payload
-    if not data or 'name' not in data:
+    if not data or 'input_name' not in data:
         return jsonify({"error": "Name is required"}), 400
     
-    if data["name"] == "Waldo"
+    if data["input_name"] == "Waldo":
         return ValueError("You aren't Waldo - a real Waldo wouldn't reveal their identity!")
 
     name = data['input_name']

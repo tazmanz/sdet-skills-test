@@ -40,6 +40,10 @@ Documentation is somewhat sparse here intentionally. As you get the components r
 
 ## Run the Python app
 - You'll need to determine and install dependencies in a virtual environment
+- Pre-Install Steps
+   - fix typo missing :
+   - pip install flask
+   - pip install flask_cors
 - Run the app itself with `python app.py`
 
 ## Run the frontend
@@ -48,4 +52,17 @@ Documentation is somewhat sparse here intentionally. As you get the components r
 
 
 # Testing Approach
-Your approach here!
+Write API Tests to validate request response
+Write UX to validate UX displays per design and is functional
+Write E2E tests to verify UX is working with API correctly
+
+To run tests:
+pip install pytest
+pip install pytest-playwright
+pip install playwright
+pip install typing
+
+Under the Test directory run
+pytest
+
+
